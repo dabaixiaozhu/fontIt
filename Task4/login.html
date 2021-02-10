@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>登录页面-flex</title>
+</head>
+
+<body>
+    <header>
+        <p>注册</p>
+        <p>登录</p>
+        <p>关闭</p>
+    </header>
+
+    <main>
+        <!-- 跳转到首页 发送get请求 -->
+        <form action="index.html" method="get">
+            <!-- 输入选项 -->
+            <div>
+                <!-- 输入手机号 -->
+                <div class="phone">
+                    <img src="img/icon-1.png" alt="输入手机号">
+                    <!-- name 提交表单时传递它们的值 -->
+                    <input type="text" name="phoneName">
+                </div>
+
+                <!-- 输入密码 -->
+                <div class="password">
+                    <img src="img/icon-2.png" alt="输入密码">
+                    <input type="password" name="password">
+                </div>
+            </div>
+
+            <!-- 登录按钮 -->
+            <div class="loginSubmit">
+                <input type="submit" value="登录">
+            </div>
+        </form>
+
+        <!-- 忘记密码 -->
+        <div class="forgetPas">
+            <a href="#">忘记密码</a>
+        </div>
+    </main>
+</body>
+
+</html>

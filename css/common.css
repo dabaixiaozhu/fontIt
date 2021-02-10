@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* img p等都会默认居中 */
 body {
     text-align: center;
 }
@@ -7,4 +8,9 @@ body {
 /* 页面相对于整个网页居中 */
 img {
     vertical-align: middle;
+}
+
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
 }

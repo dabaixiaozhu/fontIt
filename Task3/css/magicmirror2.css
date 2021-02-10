@@ -1,0 +1,39 @@
+body {
+    background-color: #68CDD6;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* 返回按钮 */
+
+.returnButton {
+    display: flex;
+    margin: 10px;
+}
+
+/* 葡萄藤logo */
+
+.brand {
+    margin: 80px 0;
+}
+
+/* 文字描述 */
+.gameDes {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    text-align: left;
+}
+
+/* 底部两个Logo */
+.codeBottom {
+    display: flex;
+    margin: 40px 10%;
+    justify-content: space-between;
+}
