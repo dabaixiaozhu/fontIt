@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+/* 页面相对于整个网页居中 */
+img {
+    vertical-align: middle;
+}

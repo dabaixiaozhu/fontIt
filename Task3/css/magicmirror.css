@@ -1,0 +1,59 @@
+body {
+    background-color: #68CDD6;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: bold
+}
+
+/* 返回按钮 */
+
+.returnButton {
+    /* 上下 左右 */
+    margin: 2% 2%;
+    overflow: hidden;
+}
+
+.returnButton img {
+    float: left;
+}
+
+/* 葡萄藤logo */
+
+.brand {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* 文字描述 */
+
+.gameDes {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    text-align: left;
+}
+
+/* 底部两个Logo */
+
+.codeBottom {
+    margin: 80px 10%;
+}
+
+/* 让图片左右显示 */
+
+.codeBottom div {
+    display: inline-block;
+}
+
+.codeBottom div:nth-child(1) {
+    float: left;
+}
+
+.codeBottom div:nth-child(2) {
+    float: right;
+}
