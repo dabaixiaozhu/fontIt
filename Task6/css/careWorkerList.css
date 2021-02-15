@@ -1,0 +1,142 @@
+/* 1.头部分 */
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #68CDD6;
+    padding: 0.8rem 0 0.2rem 31px;
+    text-align: center;
+}
+
+.chooseMenu {
+    margin: 0 auto;
+}
+
+/* 按钮 */
+.chooseMenu button {
+    width: 4rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.3rem;
+    background-color: #FFFFFF;
+    color: #68CDD6;
+}
+
+.chooseMenu button:nth-of-type(1) {
+    background-color: #55A8B3;
+    color: #FFFFFF;
+}
+
+.location {
+    float: right;
+    width: 21px;
+    height: 22px;
+    background-image: url("../img/spirte-lit.png");
+    background-position: 0 0;
+    margin: 5px;
+}
+
+/* 2.多选框部分 */
+.threeInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.threeInput select {
+    /* 这里只能使得显示的文字居中 */
+    text-align: center;
+    text-align-last: center;
+    width: 33.4%;
+    height: 2.5rem;
+    border: 0.1rem solid #E1E5E7;
+    color: #999999;
+}
+
+.threeInput option {
+    border: #999999;
+}
+
+/* 3.正文部分 */
+#mainContent {
+    text-align: left;
+    font-size: 0.6rem;
+    color: #5D5D5D;
+}
+
+#mainContent>div {
+    padding: 0 0.5rem 1rem;
+    border-bottom: 0.15rem solid #eff0f4;
+}
+
+#mainContent>div>div {
+    display: flex;
+    margin-top: 0.7rem;
+    align-items: center;
+}
+
+#mainContent>div div:nth-of-type(2) {
+    margin-left: 1rem;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+#mainContent>div div:nth-of-type(2) span:nth-of-type(2) {
+    color: #E63B0E;
+}
+
+/* 小图标 */
+.icon-date {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/spirte-lit.png");
+    background-repeat: no-repeat;
+    background-position: 0 -72px;
+    margin: 0.2rem;
+}
+
+.icon-site {
+    width: 10px;
+    height: 12px;
+    background-image: url("../img/spirte-lit.png");
+    background-repeat: no-repeat;
+    background-position: 0 -60px;
+    margin: 0.2rem;
+}
+
+/* 4.底部 */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footerContent {
+    display: flex;
+    /* 均匀排列每个元素；每个元素之间的间隔相等 */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F8FAFB;
+    padding: 0.4rem 0;
+    font-size: 0.8rem;
+}
+
+/* 首页标签 */
+.but-home {
+    width: 23px;
+    height: 20px;
+    background-image: url("../img/spirte-big.png");
+    background-repeat: no-repeat;
+    background-position: 0 -21px;
+    margin-bottom: 0.3rem;
+}
+
+/* 我的标签 */
+.but-my {
+    width: 21px;
+    height: 21px;
+    background-image: url("../img/spirte-big.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin: 0 0 0.3rem 0.1rem;
+}
